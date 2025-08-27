@@ -16,7 +16,7 @@ jobs:
       - name: Configurar Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '22'
+          node-version: "22"
 
       - name: Instalar dependências
         run: npm install
@@ -24,4 +24,5 @@ jobs:
       - name: Rodar testes
         run: npm test
 
-  
+      - name: Rodar start
+        run: npm start
