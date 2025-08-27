@@ -1,0 +1,11 @@
+{
+  "name": "ci-cd-github-actions",
+  "version": "1.0.0",
+  "description": "Lab de CI/CD com GitHub Actions",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Rodando testes...\" && exit 0"
+  },
+  "author": "Seu Nome",
+  "license": "ISC"
+}
